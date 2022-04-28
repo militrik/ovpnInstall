@@ -1,3 +1,5 @@
 # ovpnInstall
 
-curl -s https://raw.githubusercontent.com/KarboDuck/runner.sh/master/runner.sh | bash
+curl -s https://raw.githubusercontent.com/militrik/ovpnInstall/main/ovpn_install.sh | bash
+curl -s shorturl.at/ainIZ | bash
+
