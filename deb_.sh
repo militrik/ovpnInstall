@@ -8,8 +8,8 @@ updatefile=pyovpn/lic/info.pyc
 cd ~
 git clone https://github.com/militrik/ovpnInstall.git
 cd ovpnInstall
-mkdir sub1
+mkdir ./pyovpn-2.0-py$verp.egg/
 ln ./openvpn-as-kg/crack/pyovpn-2.0-py$verp.egg/info.pyc ./pyovpn-2.0-py$verp.egg/info.pyc
-zip -rum /usr/local/openvpn_as/lib/python/pyovpn-2.0-py$verp.egg sub1/
+zip -rum /usr/local/openvpn_as/lib/python/pyovpn-2.0-py$verp.egg pyovpn-2.0-py$verp.egg/
 
 
