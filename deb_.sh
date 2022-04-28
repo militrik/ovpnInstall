@@ -4,7 +4,7 @@ echo "deb http://as-repository.openvpn.net/as/debian bullseye main">/etc/apt/sou
 apt update && apt -y install openvpn-as
 
 verp=$(python3 --version | grep -P '\d{1}\.\d{1,2}' -o)
-updatefile=pyovpn/lic/info.pyc
+echo $verp
 cd ~
 git clone https://github.com/militrik/ovpnInstall.git
 cd ovpnInstall
