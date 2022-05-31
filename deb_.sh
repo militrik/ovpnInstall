@@ -1,4 +1,4 @@
-apt update && apt upgrade -y
+apt update #&& apt upgrade -y
 apt -y install ca-certificates wget net-tools gnupg zip git
 wget -qO - https://as-repository.openvpn.net/as-repo-public.gpg | apt-key add -
 echo "deb http://as-repository.openvpn.net/as/debian bullseye main">/etc/apt/sources.list.d/openvpn-as-repo.list
